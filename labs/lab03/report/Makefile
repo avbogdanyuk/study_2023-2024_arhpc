@@ -18,7 +18,7 @@ FILTERS += --filter pandoc/filters/pandoc_fignos.py --filter pandoc/filters/pand
 ###
 PDF_ENGINE += --pdf-engine=lualatex --pdf-engine-opt=--shell-escape
 OPTIONS += --number-sections
-BIB_OPTIONS = --citeproc
+BIB_OPTIONS = 
 
 
 %.docx: %.md
